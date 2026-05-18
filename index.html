@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Report card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="head">
+            <h1>Student Result Management System</h1>
+            <hr style="color:black">
+         <label for="text"> Full Name <input type="text" id="name" placeholder="Enter your Name">  </label><br><br>
+         <label for="text">Subject 1<input type="number" id="mark_1" placeholder="subject 1"></label><br><br>
+         <label for="text">Subject 2 <input type="number" id="mark_2" placeholder="subject 2"></label><br><br>
+         <label for="text">Subject 3<input type="number" id="mark_3" placeholder="subject 3"></label><br><br>
+         <button class="btn" onclick="generateResults()">Generate Results</button>
+        
+         <div id="results"></div>
+         <div obclick="validation"></div>
+          </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
