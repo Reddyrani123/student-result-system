@@ -15,7 +15,7 @@ A Beginner  JavaScript project that calculates:
 - Grade Calculation
 - Result Color Status
 ## Project Structure
-Student-result-System/
+
 student-result-system/
 |
 ├── index.html
